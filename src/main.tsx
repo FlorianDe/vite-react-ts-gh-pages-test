@@ -17,7 +17,7 @@ const router = createBrowserRouter(
           ]
       }
   ],
-  { basename: '/vite-react-ts-gh-pages-test/' }
+  { basename: import.meta.env.BASE_URL }
 );
 
 import './index.css'
